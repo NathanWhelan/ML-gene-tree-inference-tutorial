@@ -1,42 +1,6 @@
----
-title: "Simple Maximum Likelihood Tree Inference Tutorial"
-author: "Nathan Whelan"
-date: "September 4, 2026"
-lang: "en"
-output: github_document
----
-<style>
-body {
-  font-size: 16px !important;
-}
-</style>
-```{css, echo=FALSE}
-/* This fixes the light green "quotation" text and grey comments */
+# Simple Maximum Likelihood Tree Inference Tutorial
+===================
 
-/* Darker Green for Strings (Quoted Text) */
-code span.st { 
-  color: #206020 !important; 
-  font-weight: 600; 
-}
-
-/* Darker Grey for Comments */
-code span.co { 
-  color: #333333 !important; 
-  font-style: italic;
-}
-
-/* Ensure links are underlined for ADA compliance */
-a { 
-  text-decoration: underline !important; 
-}
-
-/* Darken the code box background slightly for better contrast */
-pre.sourceCode {
-  background-color: #f5f5f5 !important;
-  border: 1px solid #cccccc;
-  border-radius: 2px;
-}
-```
 
 ## Single gene tree inference.
 
@@ -58,9 +22,12 @@ Let's assume your gene is 658 bp. That is, the lenght of the standard barcoding 
 
 An example for COI:   
  
->DNA, codon1 = 1-658/3
->DNA, codon2 = 2-658/3
->DNA, codon3 = 3-658/3
+```
+DNA, codon1 = 1-658/3
+DNA, codon2 = 2-658/3
+DNA, codon3 = 3-658/3
+```
+
  
 Save that text into a file like partition.txt
 
